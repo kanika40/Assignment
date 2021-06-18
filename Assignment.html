@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Kanika</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Kanika Sharma</h1>
+  <p><b>Permanent Address:</b> Flat no.-103, N-4, D-6, Vasant Kunj, New Delhi-110070. 
+<b>Linked-in:</b> linkedin.com/in/Kanika-sharma-a4672b171 
+<b>Email:</b>Kanikashaniya12@gmail.com| <b>Contact:</b>+91 9560823241 
+</p>
+</div> 
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="#">Page1</a>
+  <a href="#">Page2</a>
+  <a href="#" class="right">Next</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    
+    <h2>Photo of me:</h2>
+    <div class="fakeimg" style="height:200px;">Image</div>
+   
+   
+  <div class="main">
+    <h2>About Me</h2>
+   
+    
+    <p>Experienced Web designer and Administrator  with a demonstrated history of working in the education management industry. Skilled in Microsoft Word, Java Certified Programmer, Public Speaking, Microsoft Office, and C (Programming Language). Strong information technology professional with a Bachelor of Technology - BTech focused in Computer Science from NIIT University.</p>
+    <br>
+    <h2>Educational Qualifications:</h2>
+   <ul>
+      <li>Bachelor of Technology in Computer Science  NIIT University 			   (2018 – 2021) </li> 
+ <li>Bachelor of Technology in Computer Science   Ansal University           (2017-2018) </li>
+ <li>Class 12		 Holy Child Auxilium School                         (2017)</li>
+ <li>Class 10					   Holy Child Auxilium School 		           (2015)
+</li></ul>
+  </div>
+</div>
+
+</body>
+</html>
